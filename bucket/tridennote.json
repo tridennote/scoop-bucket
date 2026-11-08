@@ -1,29 +1,29 @@
 {
-    "version": "1.3.0",
+    "version": "1.4.0",
     "description": "Notes, next level, in your terminal",
-    "homepage": "https://github.com/hrithiqball/tridennote-tui",
+    "homepage": "https://github.com/tridennote/cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hrithiqball/tridennote-tui/releases/download/v1.3.0/tridennote_windows_amd64.zip",
-            "hash": "d3323d44356d09acaae20e5d36e3078e239a00a15926c7f66118e82173331ce2"
+            "url": "https://github.com/tridennote/cli/releases/download/v1.4.0/tridennote_windows_amd64.zip",
+            "hash": "c41c6512d1699bbd9aee0e8830090036ad0d6b2faafbbca934233cc178c840c7"
         },
         "arm64": {
-            "url": "https://github.com/hrithiqball/tridennote-tui/releases/download/v1.3.0/tridennote_windows_arm64.zip",
-            "hash": "ef7152dd459675b60911055cc8b422b8ceba6bf355eeeffac1e6392e1de6d2a3"
+            "url": "https://github.com/tridennote/cli/releases/download/v1.4.0/tridennote_windows_arm64.zip",
+            "hash": "1e1ee8d6943d3931e1cd5f50049c9e9fbc6e7187605a01c93bb1b91cd0d81f1a"
         }
     },
     "bin": "tridennote.exe",
     "checkver": {
-        "github": "https://github.com/hrithiqball/tridennote-tui"
+        "github": "https://github.com/tridennote/cli"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/hrithiqball/tridennote-tui/releases/download/v$version/tridennote_windows_amd64.zip"
+                "url": "https://github.com/tridennote/cli/releases/download/v$version/tridennote_windows_amd64.zip"
             },
             "arm64": {
-                "url": "https://github.com/hrithiqball/tridennote-tui/releases/download/v$version/tridennote_windows_arm64.zip"
+                "url": "https://github.com/tridennote/cli/releases/download/v$version/tridennote_windows_arm64.zip"
             }
         },
         "hash": {
